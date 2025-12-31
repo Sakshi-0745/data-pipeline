@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 data "aws_s3_bucket" "raw_bucket" {
-  bucket = "event-raw-data-pipeline"
+  bucket = "newevent-raw-data-pipeline"
 }
 
 data "aws_s3_bucket" "processed_bucket" {
-  bucket = "processed-event-data"
+  bucket = "newprocessed-event-data"
 }
